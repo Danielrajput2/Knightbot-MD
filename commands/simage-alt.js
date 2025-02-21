@@ -31,7 +31,7 @@ async function simageCommand(sock, quotedMessage, chatId) {
 
         await sock.sendMessage(chatId, { 
             image: fs.readFileSync(tempOutput),
-            caption: '✨ Here\'s your image!' 
+            caption: '✨ Lo Babu! ' 
         });
 
         // Cleanup
