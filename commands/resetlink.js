@@ -20,7 +20,7 @@ async function resetlinkCommand(sock, chatId, senderId) {
         }
 
         if (!isBotAdmin) {
-            await sock.sendMessage(chatId, { text: '❌ Bot must be admin to reset group link!' });
+            await sock.sendMessage(chatId, { text: '❌ KING B2K ✓ must be admin to reset group link!' });
             return;
         }
 
