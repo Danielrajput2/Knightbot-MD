@@ -35,7 +35,7 @@ async function banCommand(sock, chatId, message) {
             });
         } else {
             await sock.sendMessage(chatId, { 
-                text: `${userToBan.split('@')[0]} is already banned!`,
+                text: `${userToBan.split('@')[0]} is already banned BY KING B2K BOT✓`,
                 mentions: [userToBan],
                 ...channelInfo 
             });
