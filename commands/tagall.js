@@ -21,9 +21,9 @@ async function tagAllCommand(sock, chatId, senderId) {
         }
 
         // Create message with each member on a new line
-        let message = '🔊 *Group Members:*\n\n';
+        let message = '🔊 *Group Hotties 🥵:*\n\n';
         participants.forEach(participant => {
-            message += `@${participant.id.split('@')[0]}\n`; // Add \n for new line
+            message += `🥵 @${participant.id.split('@')[0]}\n`; // Add \n for new line
         });
 
         // Send message with mentions
