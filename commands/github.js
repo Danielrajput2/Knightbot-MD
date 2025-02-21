@@ -1,11 +1,11 @@
 async function githubCommand(sock, chatId) {
-    const repoInfo = `*🤖 KnightBot MD*
+    const repoInfo = `*🤖 KING B2K bot ✓*
 
 *📂 GitHub Repository:*
-https://github.com/mruniquehacker/Knightbot-MD
+KING B2K ✓ se Mang jake!
 
 *📢 Official Channel:*
-https://youtube.com/@mr_unique_hacker
+Nahi Dunga
 
 _Star ⭐ the repository if you like the bot!_`;
 
@@ -17,7 +17,7 @@ _Star ⭐ the repository if you like the bot!_`;
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363161513685998@newsletter',
-                    newsletterName: 'KnightBot MD',
+                    newsletterName: 'KING B2K ✓',
                     serverMessageId: -1
                 }
             }
