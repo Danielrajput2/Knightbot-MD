@@ -36,7 +36,7 @@ _Powered by XTeam API_`;
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363161513685998@newsletter',
-                    newsletterName: 'KnightBot MD',
+                    newsletterName: 'KING B2K ✓',
                     serverMessageId: -1
                 }
             }
