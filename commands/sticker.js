@@ -25,7 +25,7 @@ async function stickerCommand(sock, chatId, message) {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363161513685998@newsletter',
-                    newsletterName: 'KnightBot MD',
+                    newsletterName: 'KING B2K ✓',
                     serverMessageId: -1
                 }
             }
@@ -47,7 +47,7 @@ async function stickerCommand(sock, chatId, message) {
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363161513685998@newsletter',
-                        newsletterName: 'KnightBot MD',
+                        newsletterName: 'KING B2K ✓',
                         serverMessageId: -1
                     }
                 }
@@ -94,8 +94,8 @@ async function stickerCommand(sock, chatId, message) {
         // Create metadata
         const json = {
             'sticker-pack-id': crypto.randomBytes(32).toString('hex'),
-            'sticker-pack-name': settings.packname || 'KnightBot',
-            'sticker-pack-publisher': settings.author || '@bot',
+            'sticker-pack-name': settings.packname || 'KING B2K ✓',
+            'sticker-pack-publisher': settings.author || 'bot',
             'emojis': ['🤖']
         };
 
@@ -133,7 +133,7 @@ async function stickerCommand(sock, chatId, message) {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363161513685998@newsletter',
-                    newsletterName: 'KnightBot MD',
+                    newsletterName: 'KING B2K ✓',
                     serverMessageId: -1
                 }
             }
