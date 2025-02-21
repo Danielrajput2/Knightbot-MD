@@ -56,7 +56,7 @@ async function characterCommand(sock, chatId, message) {
         });
 
         // Create character analysis message
-        const analysis = `🔮 *Character Analysis* 🔮\n\n` +
+        const analysis = `🔮 *Character Analysis KING B2K BOT ✓* 🔮\n\n` +
             `👤 *User:* ${userToAnalyze.split('@')[0]}\n\n` +
             `✨ *Key Traits:*\n${traitPercentages.join('\n')}\n\n` +
             `🎯 *Overall Rating:* ${Math.floor(Math.random() * 21) + 80}%\n\n` +
