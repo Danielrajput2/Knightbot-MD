@@ -14,7 +14,7 @@ async function handleAntilinkCommand(sock, chatId, userMessage, senderId, isSend
         const action = args[0];
 
         if (!action) {
-            const usage = `\`\`\`ANTILINK SETUP\n\n${prefix}antilink on\n${prefix}antilink set delete | kick | warn\n${prefix}antilink off\n\`\`\``;
+            const usage = `\`\`\`ANTILINK SETUP FROM KING B2K ✓\n\n${prefix}antilink on\n${prefix}antilink set delete | kick | warn\n${prefix}antilink off\n\`\`\``;
             await sock.sendMessage(chatId, { text: usage });
             return;
         }
@@ -23,7 +23,7 @@ async function handleAntilinkCommand(sock, chatId, userMessage, senderId, isSend
             case 'on':
                 const existingConfig = await getAntilink(chatId, 'on');
                 if (existingConfig?.enabled) {
-                    await sock.sendMessage(chatId, { text: '*_Antilink is already on_*' });
+                    await sock.sendMessage(chatId, { text: '*_Antilink on hai bhai_*' });
                     return;
                 }
                 const result = await setAntilink(chatId, 'on', 'delete');
@@ -34,7 +34,7 @@ async function handleAntilinkCommand(sock, chatId, userMessage, senderId, isSend
 
             case 'off':
                 await removeAntilink(chatId, 'on');
-                await sock.sendMessage(chatId, { text: '*_Antilink has been turned OFF_*' });
+                await sock.sendMessage(chatId, { text: '*_Antilink OFF hogya_*' });
                 break;
 
             case 'set':
@@ -124,7 +124,7 @@ async function handleLinkDetection(sock, chatId, message, userMessage, senderId)
         }
 
         const mentionedJidList = [senderId];
-        await sock.sendMessage(chatId, { text: `Warning! @${senderId.split('@')[0]}, posting links is not allowed.`, mentions: mentionedJidList });
+        await sock.sendMessage(chatId, { text: `Warning! @${senderId.split('@')[0]}, Link mat bhej yrr...`, mentions: mentionedJidList });
     } else {
         console.log('No link detected or protection not enabled for this type of link.');
     }
