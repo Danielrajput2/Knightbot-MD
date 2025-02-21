@@ -90,7 +90,7 @@ async function handleChatbotResponse(sock, chatId, message, userMessage, senderI
         }
 
         if (!isBotMentioned && !isReplyToBot) {
-            console.log('Bot not mentioned or replied to');
+            console.log('KING B2K BOT ✓ not mentioned or replied to');
             return;
         }
 
@@ -137,7 +137,7 @@ async function getGPT3Response(userMessage) {
         
         const systemPrompt = {
             role: "system",
-            content: "You are KnightBot CHATBOT, an intelligent and feature-rich assistant. Behave like human and talk like human. Understand how sender responds, behaves accordingly. Enhance your responses with relevant emojis when appropriate while maintaining clarity and professionalism."
+            content: "You are KING B2K ✓ CHATBOT, an intelligent and feature-rich assistant. Behave like human and talk like human. Understand how sender responds, behaves accordingly. Enhance your responses with relevant emojis when appropriate while maintaining clarity and professionalism."
         };
 
         const userPrompt = {
