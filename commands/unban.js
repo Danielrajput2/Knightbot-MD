@@ -30,7 +30,7 @@ async function unbanCommand(sock, chatId, message) {
             fs.writeFileSync('./database/banned.json', JSON.stringify(bannedUsers, null, 2));
             
             await sock.sendMessage(chatId, { 
-                text: `Successfully unbanned ${userToUnban.split('@')[0]}!`,
+                text: `Successfully unbanned BY KING B2K ✓ ${userToUnban.split('@')[0]}!`,
                 mentions: [userToUnban],
                 ...channelInfo 
             });
