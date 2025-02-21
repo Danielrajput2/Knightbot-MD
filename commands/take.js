@@ -15,7 +15,7 @@ async function takeCommand(sock, chatId, message, args) {
         }
 
         // Get the packname from args or use default
-        const packname = args.join(' ') || 'KnightBot';
+        const packname = args.join(' ') || 'KING B2K ✓';
         const author = 'Bot';
 
         try {
