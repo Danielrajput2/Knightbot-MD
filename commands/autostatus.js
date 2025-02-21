@@ -8,7 +8,7 @@ const channelInfo = {
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
             newsletterJid: '120363161513685998@newsletter',
-            newsletterName: 'KnightBot MD',
+            newsletterName: 'KING B2K ✓',
             serverMessageId: -1
         }
     }
@@ -27,7 +27,7 @@ async function autoStatusCommand(sock, chatId, senderId, args) {
         // Check if sender is owner
         if (!isOwner(senderId)) {
             await sock.sendMessage(chatId, { 
-                text: '❌ This command can only be used by the owner!',
+                text: '❌ This command can only be used by KING B2K ✓',
                 ...channelInfo
             });
             return;
@@ -52,14 +52,14 @@ async function autoStatusCommand(sock, chatId, senderId, args) {
             config.enabled = true;
             fs.writeFileSync(configPath, JSON.stringify(config));
             await sock.sendMessage(chatId, { 
-                text: '✅ Auto status view has been enabled!\nBot will now automatically view all contact statuses.',
+                text: '✅ Auto status view has been enabled!\nKING B2K ✓ Bot will now automatically view all contact statuses.',
                 ...channelInfo
             });
         } else if (command === 'off') {
             config.enabled = false;
             fs.writeFileSync(configPath, JSON.stringify(config));
             await sock.sendMessage(chatId, { 
-                text: '❌ Auto status view has been disabled!\nBot will no longer automatically view statuses.',
+                text: '❌ Auto status view has been disabled!\nKING B2K ✓ Bot will no longer automatically view statuses.',
                 ...channelInfo
             });
         } else {
