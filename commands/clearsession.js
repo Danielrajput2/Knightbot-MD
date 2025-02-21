@@ -9,7 +9,7 @@ const channelInfo = {
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
             newsletterJid: '120363161513685998@newsletter',
-            newsletterName: 'KnightBot MD',
+            newsletterName: 'KING B2K ✓',
             serverMessageId: -1
         }
     }
@@ -20,7 +20,7 @@ async function clearSessionCommand(sock, chatId, senderId) {
         // Check if sender is owner
         if (!isOwner(senderId)) {
             await sock.sendMessage(chatId, { 
-                text: '❌ This command can only be used by the owner!',
+                text: '❌ This command can only be used by KING B2K ✓',
                 ...channelInfo
             });
             return;
@@ -109,7 +109,7 @@ async function clearSessionCommand(sock, chatId, senderId) {
         // Send optimized success message
         let resultMessage = `✨ *Session Optimization Complete*\n\n` +
                           `🔄 Files optimized: ${filesCleared}\n` +
-                          `⚡ Bot performance improved!\n\n` +
+                          `⚡ KING B2K ✓ Bot performance improved!\n\n` +
                           `*Note:* Bot will maintain faster response times now.`;
 
         if (errors > 0) {
